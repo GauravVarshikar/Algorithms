@@ -3,6 +3,9 @@ package Recursion;
 public class Fibonacci {
     public static void main(String[] args) {
         //Find the nth number in the fibonacci series
+        System.out.println(fibonacci(0));
+        System.out.println(fibonacci(1));
+        System.out.println(fibonacci(2));
         System.out.println(fibonacci(10));
     }
 
